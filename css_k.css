@@ -32,7 +32,6 @@ td {
 .banner {   
     height: 500px;
     width: 100%;
-    
 
 }
 
@@ -62,8 +61,6 @@ td {
     background-color: #293133;
     margin-top: 30px;
     padding-left: 100px;
-   
-    
 }
 
 a {
@@ -90,11 +87,7 @@ a {
     width:8%;
     float:left;
     text-align: left;
-
-
 }
-
-
 
 .uebersicht2 {
     padding-top: 20px;
@@ -104,9 +97,6 @@ a {
     padding-right: 20px;
     float: left;
     box-sizing: border-box;
-    
-
-    
 }
 
 .agb {
