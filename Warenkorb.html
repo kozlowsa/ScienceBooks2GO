@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> ScienceBooks2GO | Warenkorb </title>
+</head>
+
+<body>
+    <header>
+        <img src="./pics/sb2g.jpg" alt="Startseite Foto" class="banner">
+     
+    <nav>
+
+
+      
+       <i class='fa fa-home fa-2x'> </i>
+         <input type="text" id="suchbegriff" name="suchbegriff" value="Suchbegriff eingeben...">
+         <i class="fa fa-search fa-2x"></i>
+         <i class="fa fa-heart fa-2x"></i>
+         <i class="fa fa-shopping-cart fa-2x"></i>
+         
+    </nav>
+
+    </header>
+    
+    <main>
+
+        <h1> Dein Warenkorb </h1>
+
+
+        <aside> <div class="box2"> <h2>Warum?</h2> </br> </br>Endlich das </br> </br>passende Buch </br> </br>zum Studieren </br> </br>finden! </div></aside>
+      
+        <div class="Warenkorb">
+            
+            <img src="./pics/hacks.jpg" alt="Im Warenkorb" class="WarenBild">
+            <p><b>Hacking & IT-Security für Einsteiger</b></p>
+            <p>5,95€<br>
+            inkl. MwSt.</p>
+            <label for="Menge">Menge: </label><select id="Menge" class="auswahlMenge"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p><b>Bitte die gewünschte Lieferadresse angeben und die Versandart und Zahlungsart wählen:</b></p>
+            <label for="Straße">Straße: </label> <input type="text" id="Straße" class="auswahlBestellung"/>
+            <label for="Nr">Nr.: </label> <input type="number" id="Nr" class="auswahlBestellung" style="width: 50px;"/><br><br>
+            <label for="PLZ">PLZ:</label> <input type="number" id="PLZ" class="auswahlBestellung" style="width: 100px;"/>
+            <label for="Ort">Ort: </label> <input type="text" id="Ort" class="auswahlBestellung"/><br><br><br>
+            <label for="Versandart">Versandart: </label><select id="Versand" class="auswahlBestellung"><option>DHL</option><option>Hermes</option></select><br><br>
+            <label for="Zahlungart">Zahlungsart: </label><select id="Zahlung" class="auswahlBestellung"><option>Rechnung</option><option>PayPal</option><option>Kreditkarte</option></select>
+            <input type="submit" value="Bestellen" href="Bestellbestätigung.html" id="bestellen" class="bestellen">
+
+
+        </div>       
+        
+        
+
+    </main>
+    <br>
+
+    <footer>
+       <div class="footer"> <a href="Über Uns.html" > Über Uns </a> </div>
+       <div class="footer"> <a href="Kontakt.html"> Kontakt </a> </div>
+       <div class="footer"> <a href="AGB.html"> AGB </a> </div>
+       <div class="footer"> <a href="Impressum.html"> Impressum </a> </div>
+    </footer>
+
+
+</body>
+</html>
